@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+
+.customNavbar {
+    display: flex;
+    background-color: hsl(342, 96%, 50%);
+    justify-content: space-around;
+    padding: 20px 0;
+    color: rgb(255, 254, 254);
+    align-items: center;
+    width: 100% !important;
+}
+.customNavbar .logo {
+    letter-spacing: 3px;
+}
+.customNavbar ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+.customNavbar ul li a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.btn {
+    border-radius: 40px;
+}
+
+
